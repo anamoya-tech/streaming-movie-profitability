@@ -1,0 +1,22 @@
+## Project Wrap-Up & Key Takeaways
+
+This project explored **relative impact efficiency** of movies available on Netflix and HBO between 2010 and 2021, using publicly available data and proxy metrics due to the absence of real viewership and budget information.
+
+Rather than attempting to estimate absolute profitability, the analysis focused on **comparative patterns** across platforms, exclusivity strategies, genres, and runtime, under clearly stated assumptions and limitations.
+
+### Key Findings
+- **Platform differences:** HBO shows higher average impact efficiency than Netflix under the defined proxy metrics, suggesting differences in catalog composition and content strategy.
+- **Exclusivity effects:** Titles shared across platforms tend to concentrate higher efficiency values, while exclusivity alone does not guarantee stronger relative performance.
+- **Quality-adjusted impact:** When IMDb score is incorporated, shared titles continue to outperform exclusives, indicating that higher efficiency is not driven by reach alone but also by perceived quality.
+- **Genre patterns (exploratory):** Genre-level analysis reveals differentiated efficiency patterns between platforms, although these results are treated as exploratory due to scale differences and uneven sample sizes.
+- **Runtime vs efficiency:** No strong relationship is observed between movie duration and impact efficiency, suggesting that runtime—used as a proxy for production effort—does not explain relative performance on its own.
+
+### Methodological Considerations
+- All results are based on **proxy metrics** and should be interpreted as **relative comparisons**, not financial outcomes.
+- Movies available on multiple platforms were intentionally retained as separate records to reflect distinct availability contexts.
+- Exploratory analyses were kept separate from the final dashboard to preserve clarity and avoid over-fragmentation.
+
+### Conclusion
+This project demonstrates an end-to-end analytical workflow, from problem formulation and data cleaning to exploratory analysis and clear, executive-level visualization. Emphasis was placed on methodological transparency, responsible use of proxy data, and thoughtful scope management.
+
+The final dashboard communicates the core insights effectively, while additional exploratory analyses remain available for future extensions. Overall, the project reflects a realistic approach to data analysis under real-world data constraints.
